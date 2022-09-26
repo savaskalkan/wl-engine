@@ -1,0 +1,7 @@
+{
+	"id": "pollinatetest.tyl.rewards",
+	"name": "Tyl Rewards Test",
+	"theme": "light",
+	"baseUrl": "http://localhost:6900",
+	"iconsPath": "./icons"
+}

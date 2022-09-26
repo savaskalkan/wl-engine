@@ -1,0 +1,3 @@
+cd wl-engine && node ./index.js build -c ../profiles/TylRewards/config.json -s ../wl-app -d ../build/TylRewards && cd ..
+
+cd .. && cd build && cd TylRewards && npx pod-install ios && npx react-native run-ios --simulator "iPhone 11"

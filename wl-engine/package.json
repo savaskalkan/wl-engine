@@ -1,0 +1,13 @@
+{
+  "name": "wl-engine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "createTylRewards": "node ./index.js build -c ../profiles/TylRewards/config.json -s ../wl-app -d ../build/TylRewards"
+  },
+  "dependencies": {
+    "commander": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "globby": "^9.0.0"
+  }
+}
